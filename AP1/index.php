@@ -6,11 +6,11 @@
 
     switch($valor){
         case "hello":
-            echo "Hello" . "\t" . time();
+            echo "Hello" . "\t" . date("h:i:s", time());
         break;
 
         case "bye":
-            echo time();
+            echo "Bye" . "\t" . date("h:i:s", time());
         break;
 
         case "saying":
