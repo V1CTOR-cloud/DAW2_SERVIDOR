@@ -1,7 +1,6 @@
 <?php
     require_once '../vendor/autoloader.php'; 
     $valor = $_GET['action'];
-    $number = $_GET['number'];
 
     switch($valor){
         case "hello":
@@ -15,6 +14,7 @@
         break;
 
         case "saying":
+            $number = $_GET['number'];
             $saying = new SayingController();
             $saying->sayings($number);
         break;
