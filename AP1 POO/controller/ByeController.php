@@ -1,7 +1,9 @@
 <?php
-require_once '../model/TimeModel.php';
-require_once '../view/view.php';
-function bye(){
-    view("Bye   ",getCurrentTime());
+class ByeController {
+    public function bye(){
+        $timeModel = new TimeModel();
+        $view = new View();
+        $view->vista("Bye   ",$timeModel->getCurrentTime());
+    }
 }
 ?>

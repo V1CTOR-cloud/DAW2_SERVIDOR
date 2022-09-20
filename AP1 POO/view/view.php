@@ -1,5 +1,7 @@
 <?php
-function view($greetings, $time){
-    echo "$greetings: $time";
+class View {
+    public function vista($greetings, $time){
+        echo "$greetings: $time";
+    }
 }
 ?>
