@@ -2,8 +2,7 @@
     "name": "daw2-dwes/mvc-ap2",
     "autoload": {
         "psr-4": {
-            "App\\": "src/",
-            "Config\\": "config/"
+            "app\\": "src/"
         }
     },
     "require": {}
