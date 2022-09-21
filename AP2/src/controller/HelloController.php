@@ -1,4 +1,9 @@
 <?php
+
+namespace app\controller;
+use app\model\TimeModel;
+use app\view\View;
+
 class HelloController {
     public function hello() {
         $timeModel = new TimeModel();

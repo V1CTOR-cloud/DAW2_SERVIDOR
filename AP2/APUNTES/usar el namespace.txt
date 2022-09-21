@@ -1,0 +1,16 @@
+Dentro de composer.json: marcar el namespace en psr4;
+namespace === src
+
+a la hora de usar el namespace:
+
+la clase que queremos usar: 
+
+namespace app\controller
+
+para usar la clase:
+
+use app\controller\NOMBRE
+
+Abreviatura o usar varios archivos en autoload:
+
+use app\controller\{NOMBRE,NOMBRE,NOMBRE};

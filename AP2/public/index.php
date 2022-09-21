@@ -1,6 +1,8 @@
 <?php
-    require_once '../vendor/autoloader.php'; 
+    require_once '../vendor/autoload.php'; 
     $valor = $_GET['action'];
+
+    use app\controller\{HelloController,ByeController,SayingController}; //Sintaxis abreviada
 
     switch($valor){
         case "hello":

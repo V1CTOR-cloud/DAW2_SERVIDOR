@@ -1,4 +1,7 @@
 <?php
+
+namespace app\model;
+
 class SayingModel {
     public function getSayings($number) {
         $sayings =[

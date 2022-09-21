@@ -1,4 +1,10 @@
 <?php
+
+namespace app\controller;
+use app\model\SayingModel;
+use app\view\sayingView;
+
+
 class SayingController {
 
     public function sayings($number){
