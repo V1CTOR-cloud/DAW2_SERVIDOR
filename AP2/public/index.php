@@ -25,3 +25,4 @@
             echo "Error: unknown action " . $valor;
         break;
     }
+?>
